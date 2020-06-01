@@ -5,10 +5,10 @@
     - [ ] Create video tutorials
     - [ ] Add screenshots to documentation
 - Installation
-    - [] download from https://mabel.wwu.edu/ibu
-    - [] connect to VPN (remotevpn.wwu.edu or securevpn.wwu.edu)
-    - [] double-click the setup file
-    - [] if you encounter a warning/error screen:
+    - [ ] download from https://mabel.wwu.edu/ibu
+    - [ ] connect to VPN (remotevpn.wwu.edu or securevpn.wwu.edu)
+    - [ ] double-click the setup file
+    - [ ] if you encounter a warning/error screen:
         - macOS
             - if you see an "Unidentified publisher" message, cancel and right-click on the icon and click "Open".
         - Windows
@@ -20,7 +20,7 @@
         - click on the Eye (icon) in the top-right corner to see the hidden values
         - enter your email address, username and password and try to login
             - if you encounter a problem, close IBU and make sure you're connected to the VPN (if you are off-campus, using WiFi, or using IBU inside of a virtual machine) and then try again.
-        - 
+        - ![config screen](https://github.com/davidbasswwu/IBU_Documentation/blob/master/img/00-configuration.png)
 - Welcome (v1.8)
     - Upload or Edit?
         - Upload
