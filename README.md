@@ -5,10 +5,10 @@
     - [ ] Create video tutorials
     - [ ] Add screenshots to documentation
 - Installation
-    - [ ] download from https://mabel.wwu.edu/ibu
-    - [ ] connect to VPN (remotevpn.wwu.edu or securevpn.wwu.edu)
-    - [ ] double-click the setup file
-    - [ ] if you encounter a warning/error screen:
+    - [] download from https://mabel.wwu.edu/ibu
+    - [] connect to VPN (remotevpn.wwu.edu or securevpn.wwu.edu)
+    - [] double-click the setup file
+    - [] if you encounter a warning/error screen:
         - macOS
             - if you see an "Unidentified publisher" message, cancel and right-click on the icon and click "Open".
         - Windows
