@@ -28,7 +28,7 @@ Notes:
 <details>
 <summary>Uploading / Adding Files to Islandora</summary>
 
-- Initial Page
+- From the Welcome screen, click "Upload"
     ![welcome screen](https://github.com/davidbasswwu/IBU_Documentation/blob/master/img/01-welcome.png)
     - Select "Owner"
         - Which organization on campus "owns" this file?  Who was it commissioned for?
@@ -123,6 +123,9 @@ Notes:
 <details>
 <summary>Editing Islandora Records</summary>
 
+From the Welcome screen     
+![welcome screen](https://github.com/davidbasswwu/IBU_Documentation/blob/master/img/01-welcome.png)
+click "Edit":
 - Enter IDs of records to edit
 - edit each record as you normally would
 - known issues (v1.8):
