@@ -76,7 +76,7 @@ Notes:
                 - ogv
             - Format-specific notes:
                 - Still Images
-                    - Please use the highest-quality (largest resolution) version you have.  Web-friendly thumbnails will be automatically generated.  Low-resolution files will generate a warning as shown in the following screenshot: ![low resolution screenshot](img/low-res-warning.png) 
+                    - Please use the highest-quality (largest resolution) version you have.  Web-friendly thumbnails will be automatically generated.  Low-resolution files will generate a warning as shown here: ![low resolution screenshot](img/low-res-warning.png) 
                     - Recommended format: TIF
                         - .tiff files use the large-image viewer in MABEL, which has zoom and pan, and will eventually offer other features such as a tour/exhibit feature.
                     - Tiff and JPG formats can store GPS metadata, and that will be shown the the Details page if it exists.
@@ -123,7 +123,10 @@ Notes:
       - if you do not see any checkboxes, click the Eyecon to show more.  Click a place to confirm that the photo represents it, which will add a tag to the metadata, and also train the AI system to identify it automatically in the future.
   - [ ] People
       - if you checked the "Facial Recognition" box on the Welcome screen, you may see up to 5 faces listed here.  Choose or enter the name if you want to train it.  If you do not want to use Facial Recognition, you can always add the names to the Abstract, Title or "Add Your Own Tags".
-  - [ ] Duplicate detection (v1.8)
+  - [ ] GPS Coordinates (TIFF and JPG only)
+    - [ ] If found in the EXIF metadata, IBU will generate a map showing where the photo was taken.  If you check the box, that metadata will be included when you publish.  ![GPS feature](img/gps-v1.8.png)
+    - [ ] Click "Check All" to apply this value (checked or unchecked) to all files that have GPS data.
+  - [ ] Duplicate detection (added v1.8)
       - if IBU can find a duplicate in MABEL, you will see a warning here.  To avoid duplicating the file, just click the Trash icon (lower-right corner) to remove this file from IBU.
       - It only finds "public" files
       - TODO: add a slider to adjust the sensitivity of the matching process. 
