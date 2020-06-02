@@ -98,6 +98,7 @@ By default, the Batch Description interface lists thumbnails of each photo, like
 - [ ] Adjust the "Tag Filter" percentage to show/hide Clarifai concepts
 - [ ] Adjust the "Zoom" slider to make the thumbnails larger or smaller
 - [ ] Notice "Uploaded %" and "Ingest %".  Ideally, wait until both are at 100% before proceeding.  The overall upload and ingest progress meters are on the left toolbar.
+- [ ] If this is a new Virtual Target Collection, you will be required to select one of the thumbnails to use the the thumbnail for the website.  ![select thumbnail image](img/select-thumbnail.png)
 - [ ] Occasionally an ingest error will occur. One way to discover this is that the ingest progress meter (in the left sidebar) never reaches 100%. Look through the list of files for an "ingest error - retry" notification as shown in the following screenshot: ![Retry feature](img/ingest-error-retry.png)
   - [ ] If Retry does not fix the problem, you may need to remove the file from the list by clicking on the Trash can icon.  
     - Please note: that if you remove a file from the upload list, it doesn't yet adjust the upload or ingest progress percentages, so when you go to publish, you may encounter a warning about one of those not being 100%.  In that case, just override the warning and continue with publishing.  That will be fixed in a future version.
