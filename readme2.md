@@ -59,7 +59,7 @@ Notes:
                 - mp4
                 - mov
                     - note: IBU converts .mov files to .mp4 to make them web-friendly, so additional processing time will be required.
-            - Not yet tested (or not tested recently) in IBU
+            - Not yet tested in IBU
                 - gif
                 - mp3
                 - jp2 
@@ -76,7 +76,7 @@ Notes:
                 - ogv
             - Format-specific notes:
                 - Still Images
-                    - Please use the highest-quality (largest resolution) version you have.  Web-friendly thumbnails will be automatically generated.  Low-resolution files will generate a warning as shown here: ![low resolution screenshot](img/low-res-warning.png) 
+                    - Please use the highest-quality (largest resolution) version you have.  Web-friendly thumbnails will be automatically generated.  Low-resolution files will generate a warning as shown in the following screenshot: ![low resolution screenshot](img/low-res-warning.png) 
                     - Recommended format: TIF
                         - .tiff files use the large-image viewer in MABEL, which has zoom and pan, and will eventually offer other features such as a tour/exhibit feature.
                     - Tiff and JPG formats can store GPS metadata, and that will be shown the the Details page if it exists.
@@ -87,15 +87,12 @@ Notes:
                     - IBU features only available to this format are indicated below by "*pdf"
         </details>
 
-## Batch Description (step 2 of 4) 
-By default, the Batch Description interface lists thumbnails of each photo, like this:
-![screenshot of batch description interface](img/batch-ungrouped.png)
-- [ ] If you adjust the "Group" slider to cluster images based on their similarity, and only show those Clarifai tags/concepts that apply to all of the ones in each group.  
-    - Note: if you see a yellow warning, that means that some of the thumbnails are not show.  Adjust the slider until they all appear.
-![grouped Batch Description screenshot](img/batch-grouped.png)
+## Batch Description (step 2 of 4) ![screenshot of batch description interface](img/batch-description.png)
 - [ ] Nothing is required in this interface, although it can save you time in the next screen if any of the values are the same for all files.
 - [ ] Check the "Auto Increment" field to add consecutive numbers after each title (My Photo 1, My Photo 2, etc...).  
 - [ ] Adjust the "Tag Filter" percentage to show/hide Clarifai concepts
+- [ ] Adjust the "Group" slider to cluster images based on their similarity
+    - if you see a yellow warning, that means that some of the thumbnails are not show.  Adjust the slider until they all appear.
 - [ ] Adjust the "Zoom" slider to make the thumbnails larger or smaller
 - [ ] Notice "Uploaded %" and "Ingest %".  Ideally, wait until both are at 100% before proceeding.  The overall upload and ingest progress meters are on the left toolbar.
 - [ ] Occasionally an ingest error will occur. One way to discover this is that the ingest progress meter (in the left sidebar) never reaches 100%. Look through the list of files for an "ingest error - retry" notification as shown in the following screenshot: ![Retry feature](img/ingest-error-retry.png)
@@ -126,10 +123,7 @@ By default, the Batch Description interface lists thumbnails of each photo, like
       - if you do not see any checkboxes, click the Eyecon to show more.  Click a place to confirm that the photo represents it, which will add a tag to the metadata, and also train the AI system to identify it automatically in the future.
   - [ ] People
       - if you checked the "Facial Recognition" box on the Welcome screen, you may see up to 5 faces listed here.  Choose or enter the name if you want to train it.  If you do not want to use Facial Recognition, you can always add the names to the Abstract, Title or "Add Your Own Tags".
-  - [ ] GPS Coordinates (TIFF and JPG only)
-    - [ ] If found in the EXIF metadata, IBU will generate a map showing where the photo was taken.  If you check the box, that metadata will be included when you publish.  ![GPS feature](img/gps-v1.8.png)
-    - [ ] Click "Check All" to apply this value (checked or unchecked) to all files that have GPS data.
-  - [ ] Duplicate detection (added v1.8)
+  - [ ] Duplicate detection (v1.8)
       - if IBU can find a duplicate in MABEL, you will see a warning here.  To avoid duplicating the file, just click the Trash icon (lower-right corner) to remove this file from IBU.
       - It only finds "public" files
       - TODO: add a slider to adjust the sensitivity of the matching process. 
@@ -155,8 +149,7 @@ From the Welcome screen, click "Edit":
       - you can change the "Target Collection", but you cannot add one from this screen (yet) 
       - the copy/force copy feature has not been added to the "Target Collection" field yet.
 - [ ] Publish, and if you've entered your email address and the email service API key into the Settings/Configuration, look for the email receipt (check Clutter/Junk folders)
-</details>
+</details>  
 
-Getting Help
-
+### Getting Help
 Contact the developer (David Bass) by emailing his firstName.lastName @ wwu.edu or the Mabel team (mabel @  wwu.edu).
